@@ -39,3 +39,6 @@ in composer property add
 ...
 ]
 ```
+
+composer require awesomemotive-challenge-3 --no-update
+composer install
