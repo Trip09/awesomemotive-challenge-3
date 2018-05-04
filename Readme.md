@@ -30,5 +30,5 @@ in composer property add
 ]
 ```
 
-composer require wordpress-plugins/awesome-motive-challenge-3 --no-update
+composer require wordpress-plugins/awesome-motive-challenge-3 
 composer install
