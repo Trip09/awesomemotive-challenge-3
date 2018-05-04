@@ -1,14 +1,14 @@
 {
-    "name": "wordpress-plugins/awesome-motive-challenge-3",
-    "license": "proprietary",
-    "type": "wordpress-plugin",
-    "description": "This is a response to chanllenge 3 from awesomemotive ",
-    "require": {
-        "php": ">7.1"
-    },
-    "autoload": {
-        "psr-4": {
-            "AwesomeMotiveChallenge3\\": ""
-        }
+  "name": "wordpress-plugins/awesome-motive-challenge-3",
+  "license": "proprietary",
+  "type": "wordpress-plugin",
+  "description": "This is a response to challenge 3 from awesomemotive ",
+  "require": {
+    "php": "^7.1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "AwesomeMotiveChallenge3\\": ""
     }
+  }
 }

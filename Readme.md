@@ -23,22 +23,12 @@ in composer property add
 "repositories": [
 ...
     {
-      "name": "awesomemotive-challenge-3",
-      "type": "package",
-      "package": {
-        "name": "awesomemotive/challenge-3",
-        "type": "wordpress-plugin",
-        "version": "v1.0.0",
-        "source": {
-          "type": "git",
-          "reference": "master",
-          "url": "git@github.com:Trip09/awesomemotive-challenge-3.git"
-        }
-      }
-    }
+      "type": "git",
+      "url": "git@github.com:Trip09/awesomemotive-challenge-3.git"
+    },
 ...
 ]
 ```
 
-composer require awesomemotive-challenge-3 --no-update
+composer require wordpress-plugins/awesome-motive-challenge-3 --no-update
 composer install
