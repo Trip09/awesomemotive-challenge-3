@@ -1,0 +1,14 @@
+# Git ignore
+*.swp
+*.swo
+*.bak
+*.sql
+nbproject/*
+resources/assets/node_modules/*
+.buildpath
+.project
+.settings/
+.idea/
+.vault_password
+
+platform/logs/*

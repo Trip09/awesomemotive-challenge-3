@@ -1,0 +1,19 @@
+<div>
+    <table class="wp-list-table widefat fixed striped ui-sortable">
+        <thead>
+        <tr>
+            <th v-for="key in columns">
+                {{ key | capitalize }}
+            </th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr v-for="entry in dataSet">
+            <td v-for="value,key in columns" >
+                <!-- TODO change this into the init of values-->
+                {{ entry[key] }}
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</div>

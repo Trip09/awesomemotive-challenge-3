@@ -1,0 +1,49 @@
+{
+  "name": "awesome-motive-challenge-3-joao-albuquerque",
+  "version": "0.0.1",
+  "requires": true,
+  "lockfileVersion": 1,
+  "dependencies": {
+    "deepmerge": {
+      "integrity": "sha512-VIPwiMJqJ13ZQfaCsIFnp5Me9tnjURiaIFxfz7EH0Ci0dTSQpZtSLrqOicXqEd/z2r+z+Klk9GzmnRsgpgbOsQ==",
+      "resolved": "https://registry.npmjs.org/deepmerge/-/deepmerge-2.0.1.tgz",
+      "version": "2.0.1"
+    },
+    "strip-bom": {
+      "integrity": "sha1-IzTBjpx1n3vdVv3vfprj1YjmjtM=",
+      "resolved": "https://registry.npmjs.org/strip-bom/-/strip-bom-3.0.0.tgz",
+      "version": "3.0.0"
+    },
+    "strip-json-comments": {
+      "integrity": "sha1-PFMZQukIwml8DsNEhYwobHygpgo=",
+      "resolved": "https://registry.npmjs.org/strip-json-comments/-/strip-json-comments-2.0.1.tgz",
+      "version": "2.0.1"
+    },
+    "uglify-js": "^3.3.23",
+    "uglifyjs-webpack-plugin": "^1.2.5",
+    "vue": "^2.5.13",
+    "vue-class-component": "^6.0.0",
+    "vue-property-decorator": "^6.0.0",
+    "vue-router": "^3.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^9.3.0",
+    "@types/webpack": "^3.8.3",
+    "css-loader": "^0.28.1",
+    "node-sass": "^4.9.0",
+    "normalize.css": "^8.0.0",
+    "optimize-css-assets-webpack-plugin": "^4.0.1",
+    "ts-loader": "^2.3.7",
+    "ts-node": "^4.1.0",
+    "tsconfig-paths": "^3.1.1",
+    "typescript": "^2.6.2",
+    "vue-loader": "^13.7.0",
+    "vue-template-compiler": "^2.5.13",
+    "vue-ts-decorate": "^1.2.1",
+    "webpack": "^3.10.0"
+  },
+  "scripts": {
+    "build": "TS_NODE_PROJECT=\"tsconfig.json\" WEBPACK_ENV=production webpack ",
+    "dev": "TS_NODE_PROJECT=\"tsconfig.json\" WEBPACK_ENV=dev webpack --progress --colors --watch"
+  }
+}
